@@ -1,5 +1,6 @@
 "use client";
 import axios from "axios";
+import { toast } from "react-hot-toast";
 import { VideoIcon } from "lucide-react";
 import { Heading } from "@/components/heading";
 import * as z from "zod";

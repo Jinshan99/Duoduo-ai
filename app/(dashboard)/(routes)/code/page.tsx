@@ -2,6 +2,7 @@
 import axios from "axios";
 import { Code } from "lucide-react";
 import { Heading } from "@/components/heading";
+import { toast } from "react-hot-toast";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { formSchema } from "./constants";
